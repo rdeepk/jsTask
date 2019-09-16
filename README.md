@@ -34,8 +34,8 @@ To run frontend
 cd frontend
 yarn start
 ```
-Open http://localhost:3000/ to access application.
-![Application Interface](public/interface.png?raw=true)
+Open http://localhost:3000/ to access application.   
+<img src="https://github.com/rdeepk/jsTask/blob/master/frontend/public/interface.png" width="600">
 
 ## Test API
 
