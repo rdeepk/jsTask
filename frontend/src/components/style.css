@@ -7,53 +7,24 @@
 }
 
 .app-header {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
     margin-bottom: 20px;
-    padding-bottom: 20px;
-    border-bottom: 1px solid #ccc;
 }
 
-.app-header input {
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    height: 30px;
-    padding: 5px 10px;
-    color: #111;
-    border: 1px solid #ccc;
-    border-right: none;
-    background-color: #fff;
-}
-
-.app-header input:focus,
-.app-header input:hover,
-.app-header input:active {
-    border: 1px solid cornflowerblue;
-    border-right: none;
-}
-
-.app-header input:disabled {
-    color: #111;
-    background-color: #ccc;
+h5 {
+    font-weight: normal;
+    font-size: 18px;
+    margin-bottom: 15px;
 }
 
 .app-header button {
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    height: 30px;
-    width: 160px;
-    padding: 5px 10px;
+    padding: 10px 30px;
     color: #fff;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 3px;
     border: 1px solid cornflowerblue;
     background-color: cornflowerblue;
     cursor: pointer;
+    outline: none;
 }

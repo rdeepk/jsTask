@@ -13,6 +13,7 @@ function Product(props) {
     } = props.data
   return (
     <div>
+        {name && <hr />}
         {name && <p><strong>Product:</strong> {name}</p>}
         {asin && <p><strong>Asin:</strong> {asin}</p>}
         {categoryGroup && <p><strong>Category Group:</strong> {categoryGroup}</p>}
