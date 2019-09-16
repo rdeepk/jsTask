@@ -35,6 +35,7 @@ cd frontend
 yarn start
 ```
 Open http://localhost:3000/ to access application.
+![Application Interface](public/interface.png?raw=true)
 
 ## Test API
 
