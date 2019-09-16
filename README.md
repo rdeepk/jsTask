@@ -1,8 +1,8 @@
 # jsTask
-This application fetches amazon product details for product with ASIN 'B002QYW8LW'
+This application fetches amazon product details for the product with ASIN 'B002QYW8LW'
 
-GraphQL API built with node.js and postgreSQL.
-Frontend uses React.js
+This includes a GraphQL API built with node.js and postgreSQL.
+It uses React.js for frontend.
 
 ## Common setup
 ```
@@ -16,8 +16,10 @@ cd ..
 cd frontend
 yarn install
 ```
-It uses postgreSQL 11. To install refer to https://www.postgresql.org/docs/11/tutorial-install.html  
+Install postgreSQL 11 for database. To install refer to https://www.postgresql.org/docs/11/tutorial-install.html  
 Create a database and add credentials to api/.env
+
+Run the migrations/setup.sql to create table structure.
 
 ## Run application
 
